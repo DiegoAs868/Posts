@@ -3,15 +3,28 @@
     padding: 0;
     font-family: monospace;
 }
-h1{
-    color: red;
-    text-align: center;
+.cajaP{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(219, 212, 212);
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
 }
-p{
+.titulo{
+    background-color: peru;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.cont{
     color:rgb(6, 41, 138);
-    text-align: center;
+    text-align: justify;
+    margin-top: 30px;
 }
-a{
+.btn{
     display: block;
     padding: 10px;
     background-color: royalblue;
@@ -21,5 +34,8 @@ a{
     width: 50px;
     height: 25px;
     border-radius: 3px;
-    text-align: center;
+    
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
 }
